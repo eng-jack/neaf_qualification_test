@@ -1,8 +1,8 @@
 
-程式說明:
+程式優化說明:
  1.利用GELU取代ReLU
  2.增加至4個卷積區塊(BLOCK1-BLOCK4)
  3.卷積後增加nn.BatchNorm2d
  4.通道數逐層增加
  5.增加dropout,每層dropout逐層增加
- ,最終共跑80個epoch,acc_val達到63%
+ ,在Colab使用GPU模式下,最終共跑80個epoch,acc_val達到63%
