@@ -5,3 +5,4 @@
  3.卷積後增加nn.BatchNorm2d
  4.通道數逐層增加
  5.增加dropout,每層dropout逐層增加
+ ,最終共跑80個epoch,acc_val達到63%
